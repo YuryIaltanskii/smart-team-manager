@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Smart Team Manager | Dashboard</title>
+  <title>Smart Team Manager | Suggestion Box</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
@@ -19,12 +19,14 @@
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Dashboard</a>
+          <a <%= link_to 'Dashboard', dashboard_index_path %></a>
         </li>
+        <li class="breadcrumb-item active">Courses</li>
+		<li class="breadcrumb-item active">Assigned</li>
       </ol>
-      <h1>Navbar</h1>
+      <h1>Courses | Assigned</h1>
       <hr>
-      <p>The SB Admin navbar can be either fixed or static, and it supports the navbar-light and navbar-dark Bootstrap 4 classes.</p>
+      <p>Here you can find all the courses that have been assigned to you</p>
 	  
       <!-- Blank div to give the page height to preview the fixed vs. static navbar-->
     </div>

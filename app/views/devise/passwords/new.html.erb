@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 <!-- Ionicons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <body class="hold-transition login-page">
 
@@ -30,3 +31,9 @@
 <%= render 'devise/shared/links' %>
 
 </body>
+
+<script type="text/javascript">
+	function validation(){
+		swal("Good job!", "You clicked the button!", "success");
+	}
+</script>
